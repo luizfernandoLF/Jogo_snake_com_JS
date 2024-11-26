@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Game Snake</title>
+</head>
+<body>
+  <div id="instructions-screen">
+    <h2>Instruções</h2>
+    <ul>
+      <li>Use as teclas de seta para mover a cobra</li>
+      <li>Coma comida para ganhar pontos</li>
+      <li>Comida preta vale 1 ponto, comida vermelha vale 2 pontos</li>
+      <li>Pressione 's' para iniciar ou reiniciar o jogo</li>
+      <li>Quando bater a cobrinha em si mesmo ou na parede, aperte 'S' para jogar novamente</li>
+      <li>Pressione 'p' para pausar/despausar o jogo</li>
+      <li><h3>Após clicar em ok, aperte 's' para começar</h3></li>
+    </ul>
+    <button id="start-game">OK</button>
+  </div>
+  <div id="game-screen" style="display: none;">
+    <div id="board-container">
+      <div id="board"></div>
+      <div id="scoreboard">0000</div>
+    </div>
+  </div>
+  <script src="js/game.js"></script>
+</body>
+</html>
